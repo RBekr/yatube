@@ -21,8 +21,14 @@ _Используемые инструменты_
 
 ## Setup
 ```
+$ git clone https://github.com/RBekr/yatube.git
+$ cd yatube
+$ python -m venv venv
+$ source venv/Scripts/activate
 $ pip install -r requirements.txt
 $ cd yatube
+& python manage.py makemigrations
+& python manage.py migrate
 $ python manage.py runserver
 ```
 [__Автор: Руслан__](https://github.com/RBekr)
